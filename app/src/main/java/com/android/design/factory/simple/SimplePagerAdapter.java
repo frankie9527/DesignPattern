@@ -11,7 +11,7 @@ public class SimplePagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
-        return FragmentFactory.creatFragment();
+        return FragmentFactory.creatFragment(i);
     }
 
     @Override

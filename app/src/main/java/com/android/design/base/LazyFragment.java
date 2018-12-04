@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 /**
  * Created by jyh on 2016/11/18.
@@ -21,12 +22,13 @@ public abstract class LazyFragment extends Fragment {
     private Boolean isFrist = true;
     private Boolean isPrepared = false;
     private View convertView;
+    private Unbinder unbinder;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         if (setFragmentView() != 0) {
             convertView = inflater.inflate(setFragmentView(), container, false);
-            ButterKnife.bind(this, convertView);
+            unbinder= ButterKnife.bind(this, convertView);
             return convertView;
         } else {
             return super.onCreateView(inflater, container, savedInstanceState);
@@ -68,6 +70,12 @@ public abstract class LazyFragment extends Fragment {
         }else {
             isPrepared=true;
         }
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 
     public abstract int setFragmentView();
