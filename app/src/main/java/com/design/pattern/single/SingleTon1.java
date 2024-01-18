@@ -1,9 +1,9 @@
-package com.android.design.single;
+package com.design.pattern.single;
 
-import com.android.design.utils.ToastUtils;
 /**
  * 饿汉式单例设计模式
- * */
+ */
+
 class SingleTon1 {
     private static final SingleTon1 ourInstance = new SingleTon1();
 
@@ -13,7 +13,8 @@ class SingleTon1 {
 
     private SingleTon1() {
     }
-    public void show(){
-        ToastUtils.show("SingleTon1");
+
+    public void show() {
+        System.out.println("SingletonPattern  SingleTon1");
     }
 }

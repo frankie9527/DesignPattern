@@ -1,7 +1,9 @@
-package com.android.design.single;
+package com.design.pattern.single;
 
-import com.android.design.utils.ToastUtils;
+
 /**
+ * =
+ * getInstance
  * 静态内部类
  * */
 class SingleTon3 {
@@ -9,10 +11,11 @@ class SingleTon3 {
         private static final SingleTon3 instance = new SingleTon3();
     }
     private SingleTon3(){}
-    public static final SingleTon3 getInsatance(){
+    public static final SingleTon3 getInstance(){
         return SingletonHolder.instance;
     }
+
     public void show(){
-        ToastUtils.show("SingleTon3");
+        System.out.println("SingletonPattern  SingleTon3");
     }
 }
