@@ -11,7 +11,7 @@ public class PrintLog {
         private static final PrintLog instance = new PrintLog();
     }
     private PrintLog(){}
-    public static final PrintLog getInstance(){
+    public static PrintLog getInstance(){
         return SingletonHolder.instance;
     }
 

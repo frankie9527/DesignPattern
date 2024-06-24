@@ -1,6 +1,6 @@
 package com.design.pattern.creation.builder;
 
-import android.support.annotation.NonNull;
+
 
 public class PersonalInfo {
     private final String name;
@@ -50,7 +50,7 @@ public class PersonalInfo {
         }
     }
 
-    @NonNull
+
     @Override
     public String toString() {
         return "PersonalInfo{" +
