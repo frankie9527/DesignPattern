@@ -31,7 +31,7 @@ public class NotificationCenter {
     }
 
     public void postNotificationName(String str) {
-        if (observers.size() == 0) {
+        if (observers.isEmpty()) {
             return;
         }
         for (NotificationCenterDelegate notificationCenterDelegate :
