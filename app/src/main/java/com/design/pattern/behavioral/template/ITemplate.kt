@@ -1,4 +1,4 @@
-package com.design.pattern.structural.template
+package com.design.pattern.behavioral.template
 
 /**
  * author: Frankie

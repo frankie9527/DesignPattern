@@ -1,4 +1,4 @@
-package com.design.pattern.behavioral.prototype;
+package com.design.pattern.creation.prototype;
 
 import java.util.ArrayList;
 import java.util.List;
