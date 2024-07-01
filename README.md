@@ -30,6 +30,7 @@ The patterns can be structured in roughly three different categories. Please cli
 
 ### Behavioral
 * [Command](/app/src/main/java/com/design/pattern/behavioral/command/Command.md)
+* [Mediator](/app/src/main/java/com/design/pattern/behavioral/mediator/Mediator.md)
 * [Observer](/app/src/main/java/com/design/pattern/behavioral/observer/Observer.md)
 * [Strategy](/app/src/main/java/com/design/pattern/behavioral/strategy/Strategy.md) 
 * [TemplateMethod](/app/src/main/java/com/design/pattern/behavioral/template/Template.md)  
