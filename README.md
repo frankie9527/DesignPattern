@@ -23,6 +23,7 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Adapter](/app/src/main/java/com/design/pattern/structural/adapter/Adapter.md)
 * [Bridge](/app/src/main/java/com/design/pattern/structural/bridge/Bridge.md)
 * [Composite](/app/src/main/java/com/design/pattern/structural/composite/Composite.md)
+* [Decorator](/app/src/main/java/com/design/pattern/structural/decorator/Decorator.md)
 * [Facade](/app/src/main/java/com/design/pattern/structural/facade/Facade.md)
 * [Flyweight](/app/src/main/java/com/design/pattern/structural/flyweight/Flyweight.md)  
 * [Proxy](/app/src/main/java/com/design/pattern/structural/proxy/Proxy.md)  
