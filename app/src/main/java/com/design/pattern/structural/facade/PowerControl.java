@@ -1,6 +1,5 @@
 package com.design.pattern.structural.facade;
 
-import com.design.pattern.PrintLog;
 
 /**
  * author: Frankie
@@ -9,19 +8,19 @@ import com.design.pattern.PrintLog;
  */
 public class PowerControl {
     public void PowerOn(){
-        PrintLog.getInstance().show("PowerControl 电源接通");
-        PrintLog.getInstance().show("PowerControl Bootloader");
-        PrintLog.getInstance().show("PowerControl Linux 内核启动");
-        PrintLog.getInstance().show("PowerControl Android 系统启动");
-        PrintLog.getInstance().show("PowerControl 开机完成");
-        PrintLog.getInstance().show("                    ");
+        System.out.println("PowerControl 电源接通");
+        System.out.println("PowerControl Bootloader");
+        System.out.println("PowerControl Linux 内核启动");
+        System.out.println("PowerControl Android 系统启动");
+        System.out.println("PowerControl 开机完成");
+        System.out.println("                    ");
     }
     public void PowerOff() {
-        PrintLog.getInstance().show("PowerControl 用户点击关机");
-        PrintLog.getInstance().show("PowerControl 系统收到关机广播");
-        PrintLog.getInstance().show("PowerControl 关闭应用程序");
-        PrintLog.getInstance().show("PowerControl 关闭硬件");
-        PrintLog.getInstance().show("PowerControl 关机成功");
-        PrintLog.getInstance().show("                    ");
+        System.out.println("PowerControl 用户点击关机");
+        System.out.println("PowerControl 系统收到关机广播");
+        System.out.println("PowerControl 关闭应用程序");
+        System.out.println("PowerControl 关闭硬件");
+        System.out.println("PowerControl 关机成功");
+        System.out.println("                    ");
     }
 }

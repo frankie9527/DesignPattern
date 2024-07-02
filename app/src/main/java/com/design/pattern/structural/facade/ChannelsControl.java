@@ -1,6 +1,5 @@
 package com.design.pattern.structural.facade;
 
-import com.design.pattern.PrintLog;
 
 /**
  * author: Frankie
@@ -9,9 +8,9 @@ import com.design.pattern.PrintLog;
  */
 public class ChannelsControl {
     public void switchChannels() {
-        PrintLog.getInstance().show("ChannelsControl 手指触发按键了");
-        PrintLog.getInstance().show("ChannelsControl 发送红外准备切台");
-        PrintLog.getInstance().show("ChannelsControl 电视收到红外信号切台成功");
-        PrintLog.getInstance().show("                    ");
+        System.out.println("ChannelsControl 手指触发按键了");
+        System.out.println("ChannelsControl 发送红外准备切台");
+        System.out.println("ChannelsControl 电视收到红外信号切台成功");
+        System.out.println("                    ");
     }
 }

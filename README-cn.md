@@ -27,6 +27,7 @@
 * [Proxy](/app/src/main/java/com/design/pattern/structural/proxy/Proxy.md)
 
 ### 行为型模式
+* [Chain of Responsibility](/app/src/main/java/com/design/pattern/behavioral/chain/ChainResponsibility.md)
 * [Command](/app/src/main/java/com/design/pattern/behavioral/command/Command.md)
 * [Mediator](/app/src/main/java/com/design/pattern/behavioral/mediator/Mediator.md)
 * [Observer](/app/src/main/java/com/design/pattern/behavioral/observer/Observer.md)

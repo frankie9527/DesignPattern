@@ -29,8 +29,9 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Proxy](/app/src/main/java/com/design/pattern/structural/proxy/Proxy.md)  
 
 ### Behavioral
+* [Chain of Responsibility](/app/src/main/java/com/design/pattern/behavioral/chain/ChainResponsibility.md)
 * [Command](/app/src/main/java/com/design/pattern/behavioral/command/Command.md)
 * [Mediator](/app/src/main/java/com/design/pattern/behavioral/mediator/Mediator.md)
 * [Observer](/app/src/main/java/com/design/pattern/behavioral/observer/Observer.md)
 * [Strategy](/app/src/main/java/com/design/pattern/behavioral/strategy/Strategy.md) 
-* [TemplateMethod](/app/src/main/java/com/design/pattern/behavioral/template/Template.md)  
+* [Template](/app/src/main/java/com/design/pattern/behavioral/template/Template.md)  

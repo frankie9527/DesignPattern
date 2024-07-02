@@ -1,6 +1,5 @@
 package com.design.pattern.structural.adapter;
 
-import com.design.pattern.PrintLog;
 
 /**
  * author: Frankie
@@ -9,7 +8,7 @@ import com.design.pattern.PrintLog;
  */
 public class ChinaPowerStation {
     public int providePower(){
-        PrintLog.getInstance().show("供电站提供220V");
+        System.out.println("供电站提供220V");
         return 220;
     }
 }
